@@ -1,0 +1,31 @@
+/**
+*    created: 11.06.2022 20:58:51
+**/
+
+#include <bits/stdc++.h>
+using namespace std;
+using lli = long long int;
+using vvi = vector<vector<int>>;
+using vi = vector<int>;
+using vvl = vector<vector<lli>>;
+using vl = vector<lli>;
+#define rep(i,n) for(int i=0; i<(n); i++)
+#define rep2(i,x,n) for(int i=x; i<(n); i++)
+#define ALL(n) begin(n),end(n)
+struct cww{cww(){ios::sync_with_stdio(false);cin.tie(0);}}star;
+const long long INF = numeric_limits<long long>::max();
+int main()
+{
+  lli x,a,d,n;
+  cin>>x>>a>>d>>n;
+  lli las=a+(n-1)*d;
+  if(d<0){
+    lli ind;
+    ind=a;
+    a=las;
+    las=ind;
+  }
+
+  
+  return 0;
+}
