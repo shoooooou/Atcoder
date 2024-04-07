@@ -1,6 +1,5 @@
 /**
- *    author:  kkr0226
- *    created: 28.05.2022 21:13:24
+  *    created: 28.05.2022 21:13:24
  **/
 
 #include <bits/stdc++.h>
